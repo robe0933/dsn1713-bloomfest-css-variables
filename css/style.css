@@ -17,8 +17,26 @@
   /* TASK 1: Your custom variables
      Type them here from the Design Tokens table in the Brightspace:
      colours first, then the -rgb versions, then fonts and sizes. */
+   --bf-black: #0a0a0a;
+   --bf-charcoal: #111111;
+   --bf-white: #ffffff;
+   --bf-pink: #ff3ea5;
+   --bf-pink-dark: #e6288f;
+   --bf-lime: #aaff00;
+   --bf-sky: #38d9f5;
+   --bf-orange: #ff7c2a;
+   --bf-orange-dark: #e8691a;
+   --bf-purple: #7c3aed;
+   --bf-pink-rgb: 255, 62, 165;
+   --bf-lime-rgb: 170, 255, 0;
+   --bf-sky-rgb: 56, 217, 245;
 
+   --bf-font-display: 'Bebas Neue', Impact, sans-serif;
+   --bf-font-body: 'Plus Jakarta Sans', sans-serif;
 
+   --bf-fs-hero: clamp(4rem, 10vw, 8rem);
+   --bf-space-section: 5rem;
+   --bf-radius: 4px;
 
   /* TASK 2: Bootstrap overrides
      Find Bootstrap's variables for the page background, text
@@ -26,8 +44,16 @@
      colour and link colour. Point each one at your variables.
      Remember: some colours also need their -rgb twin. */
 
-
-
+   --bs-body-bg: var(--bf-black);
+   --bs-body-color: var(--bf-white);
+   --bs-body-font-family: var(--bf-font-body);
+   --bs-border-radius: var(--bf-radius); 
+   --bs-primary: #ff3ea5;;
+   --bs-primary-rgb: 255, 62, 165;
+   --bs-info: #38d9f5;
+   --bs-info-rgb: 56, 217, 245;
+   --bs-link-color:  #aaff00;
+   --bs-link-color-rgb:  170, 255, 0;
 }
 
 
