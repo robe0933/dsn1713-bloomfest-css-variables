@@ -133,12 +133,13 @@ h1, h2, h3,
    --bs- variables for this button. */
 
 .btn-primary {
-    --bs-btn-color: var(--bf-white);
     --bs-btn-bg: var(--bf-pink);
     --bs-btn-border-color: var(--bf-pink);
     --bs-btn-hover-color: var(--bf-white);
     --bs-btn-hover-bg: var(--bf-pink-dark);
     --bs-btn-hover-border-color: var(--bf-pink-dark);
+
+    --bs-btn-active-bg: var(--bf-pink)
 
 }
 
@@ -148,14 +149,13 @@ h1, h2, h3,
    Same variables as Task 7, plus the text colour variables. */
 
 .btn-warning {
-    --bs-btn-color: var(--bf-white);
     --bs-btn-bg: var(--bf-orange);
     --bs-btn-border-color: var(--bf-orange);
     --bs-btn-hover-color: var(--bf-white);
     --bs-btn-hover-bg: var(--bf-orange-dark);
     --bs-btn-hover-border-color: var(--bf-orange-dark);
 
-    --bs-btn-text-color: var(--bf-white);
+    --bs-btn-color: var(--bf-white);
     --bs-btn-hover-text-color:var(--bf-white);
     --bs-btn-active-text-color:var(--bf-white);
 }
@@ -195,6 +195,6 @@ h1, h2, h3,
    set them here using your lime variables. */
 
 .form-control:focus {
-   border-color to --bf-lime
-   box-shadow to 0 0 0 0.25rem rgba(var(--bf-lime-rgb), 0.25)
+   border-color: var(--bf-lime);
+   box-shadow: 0 0 0 0.25rem rgba(var(--bf-lime-rgb), 0.25)
 }
